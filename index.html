@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="모모리 - 프로필 링크" />
+        <meta property="og:description" content="인간복숭아는처음이지?" />
+        <meta property="og:image" content="모모리보라.jpg" />
+        <title>모모리 - 프로필 링크</title>
+    <style>
+
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+        body{background-color: rgb(209, 140, 140);
+        }
+        .momo {
+            width: 100px;
+            height:100px;
+
+      
+            border-radius: 100%;
+
+            border: 2px solid white;
+            background-image: url('모모리.jpeg');
+            background-position: center;
+            background-size: cover;
+        }
+        .제목  {
+            color: rgb(241, 231, 241);
+            font-size: 20px;
+
+            margin-top: 30px;
+            margin-bottom: 10px;
+          }
+          .소개 {
+            color: rgb(245, 245, 245);
+            font-size: 14px;
+
+            margin-top: 0px;
+            margin-bottom: 30px;
+
+
+          }
+          .wrap {
+            width: 300px;
+            margin: 30PX AUTO 0PX AUTO;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .wrap > A {
+            width: 300px;
+            height: 50px;
+
+            background-color: beige;
+            border-radius: 8px;
+
+            margin-bottom: 10px;
+
+            font-size: 14px;
+            font-weight: bold;
+            color:  rgb(209, 140, 140);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none;
+            box-shadow: 7PX 7PX ;
+          }
+
+          .wrap > A:hover {
+                background-color: pink; 
+            
+            }
+        
+    </style>
+
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="momo"></div>
+            <h1 class="제목">모모리</h1>
+            <p class="소개">복숭아 좋아해?</p>
+            <a target="_blank" href="https://www.instagram.com/m5m5_2_/?hl=ko">인스타</a>
+            <a target="_blank" href="https://www.instagram.com/m5m5_2__/?hl=ko">부계정</a>
+        </div>
+    </body>
+</html>
